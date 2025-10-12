@@ -11,7 +11,7 @@ This repository contains the configuration files and Packet Tracer project for a
 * `S2.cfg` – Access switch configuration
 * `S3.cfg` – Access switch configuration
 * `S4.cfg` – Wireless switch configuration
-* `Enterprise_Network_PT_Yixuan.ptk` – Packet Tracer project file
+* `Enterprise_Network` – Packet Tracer project file
 
 ## Features
 
