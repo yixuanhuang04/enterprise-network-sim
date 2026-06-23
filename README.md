@@ -41,9 +41,7 @@ Any use, modification, reference, or redistribution of this project or its deriv
 
 ## License
 
-This project is distributed under the:
+Copyright 2025 Yixuan Huang
 
-ACADEMIC ATTRIBUTION AND RESTRICTED USE LICENSE  
-Version 1.0.0
-
-See the `LICENSE` file for full terms and conditions.
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
