@@ -1,0 +1,9 @@
+*.autosave
+*.backup
+*.bak
+*.tmp
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,47 +1,74 @@
-# Enterprise Network Simulation Project
+# Enterprise Network Simulation
 
-An enterprise network simulation project developed for academic coursework and educational purposes. This repository contains the complete Cisco Packet Tracer project and related device configuration files for a simulated enterprise network environment, including routing, VLAN segmentation, NAT, access control, and wireless integration.
+A Cisco Packet Tracer project that models routing, VLAN segmentation, NAT,
+access control, and wireless connectivity across a small enterprise network.
+It preserves the topology and device configurations as a completed networking study.
 
-This project is released for personal learning, academic reference, and non-commercial educational use only.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Complete-success.svg)](#project-status)
+[![Platform](https://img.shields.io/badge/Platform-Packet%20Tracer-informational.svg)](#requirements)
 
-## Academic Notice
+## Overview
 
-This repository is a course project created and maintained by Yixuan Huang.
-
-Unauthorized redistribution, plagiarism, removal of authorship information, or submission of this project as original work by others is strictly prohibited.
-
-Any use, modification, reference, or redistribution of this project or its derivative works must retain proper attribution to the original author.
-
-## Contents
-
-* `R0.cfg` — Router R0 configuration
-* `R1.cfg` — Router R1 configuration
-* `Core switch.cfg` — Core switch configuration
-* `S1.cfg` — Access switch configuration
-* `S2.cfg` — Access switch configuration
-* `S3.cfg` — Access switch configuration
-* `S4.cfg` — Wireless switch configuration
-* `Enterprise_Network.pkt` — Cisco Packet Tracer project file
+This repository provides a complete Packet Tracer topology and separate router
+and switch configuration files. The simulated environment demonstrates how
+multiple network services and segmentation rules work together in an enterprise
+deployment.
 
 ## Features
 
-* Enterprise network topology simulation
-* RIP dynamic routing configuration
-* NAT and access control list configuration
-* VLAN segmentation and trunk configuration
-* Access and trunk port management
-* Wireless VLAN integration for access point connectivity
-* Multi-device enterprise network deployment in Cisco Packet Tracer
+- RIP dynamic routing between network segments.
+- VLAN segmentation with access and trunk port configuration.
+- Network Address Translation and access-control lists.
+- Core and access-layer switch configuration.
+- Wireless VLAN integration.
+- Multi-device validation in Cisco Packet Tracer.
+
+## Requirements
+
+- Cisco Packet Tracer
+
+Compatibility depends on the Packet Tracer version used to open the `.pkt` file.
+
+## Contents
+
+```text
+.
+├── Enterprise_Network.pkt
+└── config/
+    ├── Core-Switch.cfg
+    ├── R0.cfg
+    ├── R1.cfg
+    ├── S1.cfg
+    ├── S2.cfg
+    ├── S3.cfg
+    └── S4.cfg
+```
 
 ## Usage
 
-1. Open the `.pkt` project file using Cisco Packet Tracer.
-2. Load or inspect individual `.cfg` files for device-specific configurations.
-3. Simulate routing, VLAN communication, and access control behaviors within the network environment.
+1. Open `Enterprise_Network.pkt` in Cisco Packet Tracer.
+2. Inspect the files under `config/` for device-specific configuration.
+3. Test routing, inter-VLAN communication, NAT, wireless access, and ACL behavior
+   in simulation mode.
+
+## Academic Use
+
+This repository is shared for learning and reference. Do not submit it as
+original coursework or misrepresent its authorship.
+
+## Project Status
+
+Complete. The topology is retained as a finished educational project and is not
+under active development.
 
 ## License
 
 Copyright 2025 Yixuan Huang
 
-This project is licensed under the MIT License.
-See the [LICENSE](LICENSE) file for details.
+Distributed under the [MIT License](LICENSE).
+
+## Contact
+
+- Website: [yixuanhuang.com](https://yixuanhuang.com)
+- Email: [yixnhuang@gmail.com](mailto:yixnhuang@gmail.com)
